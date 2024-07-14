@@ -108,6 +108,7 @@ while True:
     for (x, y, w, h) in faces:
         
         # draw bbox
+        # if you want to see the bbox of the detection use this
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
         scale = w / 200  # Adjust scale based on face width
