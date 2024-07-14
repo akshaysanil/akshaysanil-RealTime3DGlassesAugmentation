@@ -11,15 +11,13 @@ This project demonstrates real-time 3D face detection and glasses augmentation u
 - **Demo Video:** Includes a demo video showcasing the project in action.
 
 ## Requirements
-
-- Python 3.x
-- OpenCV
+- Python 3.8
+- OpenCV - Contrib
 - Trimesh
 - NumPy
 - PyOpenGL
 - GLFW
   
-
 ## Installation
 1. **Clone the repository:**
    ```bash
@@ -35,4 +33,7 @@ Instructions for installing OpenGL and GLFW can vary based on your operating sys
 Download 3D Models:
 
 Download the 3D models for glasses and place them in the models/3dglassdata/ directory.
-fr:If any doubts ping me.
+
+
+
+*fr:If any doubts ping me.
