@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0) #using my default camera
 face_cascade = cv2.CascadeClassifier('detection_model/haarcascade_frontalface_default.xml')
 
 # it is the screen for rendering the obj, 
-# glfw is to create and manage OpenGL windows.
+# glfw is to create and manage OpenGL windows.3d_render_env
 if not glfw.init():
     raise Exception("GLFW initialization failed")
 
@@ -108,7 +108,7 @@ while True:
     for (x, y, w, h) in faces:
         
         # draw bbox
-        # cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
 
         scale = w / 200  # Adjust scale based on face width
         x_center = x + w / 2
