@@ -3,7 +3,13 @@
 ## Overview
 This project demonstrates real-time 3D face detection and glasses augmentation using OpenCV and OpenGL. It detects faces in live video streams, calculates face landmarks, and overlays 3D glasses onto detected faces in real-time.
 
+# Demo-1
 ![](https://github.com/akshaysanil/akshaysanil-RealTime3DGlassesAugmentation/blob/main/3dglassdemo.gif)
+
+# Demo-2 (with bbox)
+![](https://github.com/akshaysanil/akshaysanil-RealTime3DGlassesAugmentation/blob/main/3dglasssdemo2.gif)
+
+
 
 ## Features
 - **Real-time Face Detection:** Utilizes OpenCV's Haar Cascade classifier to detect faces in live video streams.
